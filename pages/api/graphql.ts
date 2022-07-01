@@ -73,3 +73,9 @@ const server = createServer<{
 })
 
 export default server
+
+export const config = {
+  api: {
+    bodyParser: false, // Disallow body parsing, consume as stream
+  },
+};
