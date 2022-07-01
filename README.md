@@ -12,7 +12,7 @@
 3. Run
   ```bash
   md5 \
-    '/.next/server/pages/api/favicon.ico' \
+    '.next/server/pages/api/favicon.ico' \
     'public/favicon.ico'
   ```
 4. See that the file hash is different.
